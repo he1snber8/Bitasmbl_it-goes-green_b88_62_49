@@ -2,9 +2,16 @@ import React from "react";
 
 export default function Layout() {
   return (
-    <div className="border p-2">
-      hit anotha one, it goes green, must have changed the phone on between ??
-      huh? yeah. but i do know one thing tho, negga.???! huuuh?
-    </div>
+    <section className="max-w-5xl p-4">
+      <ul className="flex flex-col gap-2">
+        {["item 1", "item 2", "item 3"].map((item) => {
+          return (
+            <li className="p-2 border" key={item}>
+              {item}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
   );
 }
