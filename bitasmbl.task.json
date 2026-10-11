@@ -1,0 +1,34 @@
+{
+  "projectApplicationLinkedRepoId": 49,
+  "projectApplicationId": 62,
+  "requirementId": 895,
+  "files": [
+    "frontend/src/layouts/layout.tsx"
+  ],
+  "activityMeta": [
+    {
+      "file": "frontend/src/layouts/layout.tsx",
+      "requirementId": 895,
+      "lastModified": "2026-10-11T10:45:20.599Z",
+      "activity": {
+        "editEvents": 4,
+        "activeDurationSec": 24,
+        "idleBreaks": 0,
+        "intervalSamples": [
+          15,
+          1,
+          8
+        ],
+        "medianEditIntervalSec": 8
+      },
+      "diffStats": {
+        "linesAdded": 10,
+        "linesDeleted": 0
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": false
+      }
+    }
+  ]
+}
