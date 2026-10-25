@@ -1,0 +1,134 @@
+{
+  "projectName": "React Portfolio Builder",
+  "projectOverview": "Build a responsive developer portfolio using React with structured sections, reusable components, routing, and configurable content.",
+  "techStackId": 80,
+  "projectId": 398,
+  "requirements": [
+    {
+      "id": 895,
+      "header": "Define portfolio layout",
+      "description": "Create the main portfolio layout with semantic page structure and responsive spacing.",
+      "paths": [
+        "**/src/layouts/**",
+        "**/src/components/layout/**",
+        "**/src/pages/**"
+      ],
+      "projectRequirementMilestones": [
+        {
+          "header": "Set up page structure",
+          "acceptanceCriterias": [
+            {
+              "description": "Create a responsive layout that works on mobile and desktop screens.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Set up page structure"
+              }
+            },
+            {
+              "description": "Use semantic layout elements such as header, main, section, and footer.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Set up page structure"
+              }
+            },
+            {
+              "description": "Include navigation, hero, content, and footer areas.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Set up page structure"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 896,
+      "header": "Build showcase components",
+      "description": "Build reusable showcase components for projects, skills, and experience sections.",
+      "paths": [
+        "**/src/components/showcase/**",
+        "**/src/features/showcase/**"
+      ],
+      "projectRequirementMilestones": [
+        {
+          "header": "Create reusable UI cards",
+          "acceptanceCriterias": [
+            {
+              "description": "Create a reusable project card component.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Create reusable UI cards"
+              }
+            },
+            {
+              "description": "Render project data dynamically from an array or configuration file.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Create reusable UI cards"
+              }
+            },
+            {
+              "description": "Keep component props typed and reusable.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Create reusable UI cards"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 897,
+      "header": "Implement navigation routing",
+      "description": "Set up navigation between portfolio sections and handle unknown routes.",
+      "paths": [
+        "**/src/router/**",
+        "**/src/navigation/**",
+        "**/src/pages/**"
+      ],
+      "projectRequirementMilestones": [
+        {
+          "header": "Set up application routes",
+          "acceptanceCriterias": [
+            {
+              "description": "Configure a route for the main portfolio page.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Set up application routes"
+              }
+            },
+            {
+              "description": "Configure a route for project detail pages.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Set up application routes"
+              }
+            },
+            {
+              "description": "Handle unknown routes with a fallback page.",
+              "isSatisfied": false,
+              "projectRequirementMilestone": {
+                "header": "Set up application routes"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "projectApplicationId": 62,
+  "currentWorkingProject": "https://github.com/he1snber8/Bitasmbl_it-goes-green_b88_62_49",
+  "domains": [
+    {
+      "name": "FrontEnd",
+      "tech": [
+        "React"
+      ],
+      "initializedLocally": true,
+      "repo": "https://github.com/he1snber8/Bitasmbl_it-goes-green_b88_62_49",
+      "localPath": "/Users/lukakhaja/Bitasmbl_it-goes-green_b88_62_49"
+    }
+  ]
+}

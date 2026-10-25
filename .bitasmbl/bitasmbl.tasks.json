@@ -1,0 +1,68 @@
+{
+  "fileMappings": [
+    {
+      "file": "frontend/src/layouts/layout.tsx",
+      "requirementId": 895,
+      "lastModified": "2026-10-23T17:17:14.484Z",
+      "activity": {
+        "idleBreaks": 1,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 23,
+              "linesDeleted": 2
+            }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 25,
+              "linesDeleted": 2
+            },
+            "interval": 11
+          },
+          {
+            "diffStats": {
+              "linesAdded": 31,
+              "linesDeleted": 2
+            },
+            "interval": 23
+          },
+          {
+            "diffStats": {
+              "linesAdded": 40,
+              "linesDeleted": 2
+            },
+            "interval": 39
+          },
+          {
+            "diffStats": {
+              "linesAdded": 40,
+              "linesDeleted": 2
+            },
+            "interval": 77
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 1
+            },
+            "interval": 6032
+          },
+          {
+            "diffStats": {
+              "linesAdded": 36,
+              "linesDeleted": 0
+            },
+            "interval": 128
+          }
+        ],
+        "medianEditIntervalSec": 39
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": true
+      }
+    }
+  ]
+}

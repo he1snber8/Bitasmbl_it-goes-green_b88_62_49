@@ -1,0 +1,50 @@
+project root inside WATCH.JS: /Users/lukakhaja/Bitasmbl_it-goes-green_b88_62_49
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- frontend/src/layouts/layout.tsx
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_it-goes-green_b88_62_49/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- frontend/src/layouts/layout.tsx',
+  command: 'git add -- frontend/src/layouts/layout.tsx',
+  escapedCommand: 'git add -- frontend/src/layouts/layout.tsx',
+  cwd: '/Users/lukakhaja/Bitasmbl_it-goes-green_b88_62_49',
+  durationMs: 4.589542,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_it-goes-green_b88_62_49/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_it-goes-green_b88_62_49/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} frontend/src/layouts/layout.tsx
